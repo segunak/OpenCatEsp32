@@ -90,7 +90,8 @@ template<typename T> void printToAllPorts(T text) {
     bleWrite(String(text));
 #endif
 #ifdef BT_SSP
-  if (BTconnected)
+// See https://www.petoi.camp/forum/clinic/solved-in-search-of-reliable-bidirectional-bluetooth-serial-port-profile-spp-communication
+  if (SerialBT.isReady())
     SerialBT.println(text);
 #endif
   if (moduleActivatedQ[0])  //serial2

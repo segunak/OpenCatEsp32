@@ -50,7 +50,8 @@
 #include "mpu6050/src/I2Cdev.h"
 
 #include "mpu6050/src/MPU6050_6Axis_MotionApps_V6_12.h"
-// #include "MPU6050.h" // not necessary if using MotionApps include file
+
+//#include "mpu6050/src/MPU6050.h" // not necessary if using MotionApps include file
 
 // Arduino Wire library is required if I2Cdev I2CDEV_ARDUINO_WIRE implementation
 // is used in I2Cdev.h

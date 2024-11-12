@@ -1,3 +1,7 @@
+
+
+#include "imu.h"
+
 #ifdef ROBOT_ARM
 bool pincerClosedQ = true;
 #endif

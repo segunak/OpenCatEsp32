@@ -84,7 +84,7 @@ String SoftwareVersion = "";
 #define BT_BLE    // toggle Bluetooth Low Energy (BLE）
 #define BT_SSP    // toggle Bluetooth Secure Simple Pairing (BT_SSP)
 #define BT_CLIENT // toggle Bluetooth client (BLE） for Micro:Bit
-#define GYRO_PIN  // toggle the Inertia Measurement Unit (IMU), i.e. the gyroscope
+//#define GYRO_PIN  // toggle the Inertia Measurement Unit (IMU), i.e. the gyroscope
 #define SERVO_FREQ 240
 
 // Tutorial: https://bittle.petoi.com/11-tutorial-on-creating-new-skills
